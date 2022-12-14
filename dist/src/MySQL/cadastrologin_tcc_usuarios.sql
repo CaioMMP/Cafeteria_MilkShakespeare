@@ -39,7 +39,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'Caio','mamedemaceilpassos@gmail.com','12345','12345','Meu nome é Caio Mamede Maciel dos Passos e sou aluno do Instituto Federal do Rio de Janeiro - Campus Arraial do Cabo, fazendo técnico em Informática integrado ao Ensino Médio!'),(2,'Administrador','administrador1807@gmail.com','18060705','18060705','Conta do Administrador'),(3,'ca','as','123','123','sua mensagem aparecerá aqui!'),(4,'cas','cas@gmail.com','123','123','sua mensagem aparecerá aqui!'),(5,'Mar','mariavelinagmail.com','mari1806','mari','sua mensagem aparecerá aqui!'),(6,'Mari','mariavelina2004@gmail.com','mari1806','mari1806','sua mensagem aparecerá aqui!');
+INSERT INTO `usuarios` VALUES (2,'Administrador','administrador1807@gmail.com','18060705','18060705','Conta do Administrador'),(3,'ca','as','123','123','sua mensagem aparecerá aqui!');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
